@@ -1,0 +1,9 @@
+rw_count:2
+protocol:main.java.com.meelody.rpc.protocol.MultiPersistProtocol
+rw_radio:1
+port:8989
+connect_count:1
+cache:main.java.com.meelody.rpc.client.cache.SimpleLocalCache
+loadbalance:main.java.com.meelody.rpc.client.LocalServiceAddress
+handle_count:5
+serializer:main.java.com.meelody.rpc.serializer.JdkSerializer

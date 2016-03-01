@@ -1,0 +1,5 @@
+NIO,BIO,AIO都分为connector，reader，writer，acceptor
+
+这四个io操作纵向都继承自共同的根父类NetWorkBase，并且在各自的io类型中有自己的纵向继承体系。而横向的功能约束则以接口进行。
+
+而四个io完成handler纵向都有自己的io类型规定的接口。而横向的共同部分则有横向的基类实现。
